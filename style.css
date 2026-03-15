@@ -23,18 +23,27 @@ box-shadow:0 2px 10px rgba(0,0,0,0.05);
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 10%;
+padding:15px 8%;
+background:white;
+position:relative;
 }
 
-.logo{
-font-size:22px;
-font-weight:700;
-color:#ff6a00;
-}
+/* LOGO */
 
 .logo img{
-height:70px;
+height:75px;
+width:auto;
 }
+
+/* MENU ICON */
+
+.menu-toggle{
+display:none;
+font-size:28px;
+cursor:pointer;
+}
+
+/* NAV LINKS */
 
 .nav-links{
 display:flex;
@@ -47,6 +56,7 @@ text-decoration:none;
 color:#111;
 font-weight:500;
 }
+
 
 .nav-links a:hover{
 color:#ff6a00;
@@ -211,14 +221,16 @@ display:block;
 
 .nav-links{
 position:absolute;
-top:60px;
+top:70px;
 left:0;
 width:100%;
 background:white;
 flex-direction:column;
 align-items:center;
+gap:20px;
 display:none;
-padding:20px 0;
+padding:25px 0;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
 .nav-links.active{
