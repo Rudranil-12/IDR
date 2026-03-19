@@ -1,5 +1,3 @@
-// smooth scrolling
-
 document.querySelectorAll("a").forEach(link=>{
 
 link.addEventListener("click",function(e){
