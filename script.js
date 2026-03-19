@@ -14,7 +14,6 @@ target.scrollIntoView({
 behavior:"smooth"
 })
 }
-
 })
 
 })
