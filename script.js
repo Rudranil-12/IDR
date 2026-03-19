@@ -13,7 +13,6 @@ const target=document.querySelector(this.hash)
 target.scrollIntoView({
 behavior:"smooth"
 })
-
 }
 
 })
